@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KERAMIKANO — Browse our full collection of custom ceramic products. Mugs, plates, bowls, and more.">
+  <title>Our Products | KERAMIKANO</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="products-page">
+
+  <div class="nav__overlay" id="navOverlay" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <div class="nav-wrapper scrolled" id="header">
+    <header class="header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="index.html" class="nav__logo">
+          <span class="nav__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M12 26c0-4 3.5-8 8-8s8 4 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><ellipse cx="20" cy="14" rx="6" ry="3" stroke="currentColor" stroke-width="2"/></svg>
+          </span>
+          <span class="nav__logo-text">KERAMIKANO</span>
+        </a>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="index.html#home" class="nav__link">Home</a></li>
+          <li><a href="index.html#factory" class="nav__link">About Us</a></li>
+          <li><a href="index.html#about" class="nav__link">Our Factory</a></li>
+          <li><a href="index.html#clients" class="nav__link">Our Client</a></li>
+          <li><a href="index.html#contact" class="nav__link">Contact Us</a></li>
+          <li class="nav__cta-item"><a href="products.html" class="nav__cta active">Our Products</a></li>
+        </ul>
+
+        <button type="button" class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </nav>
+    </header>
+  </div>
+
+  <section class="products-page__banner">
+    <div class="products-page__banner-pattern" aria-hidden="true"></div>
+    <div class="container products-page__banner-content" data-aos="fade-up">
+      <div class="products-page__banner-icon" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="36" stroke="currentColor" stroke-width="2"/><path d="M28 52c0-6 5-12 12-12s12 6 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><ellipse cx="40" cy="30" rx="10" ry="5" stroke="currentColor" stroke-width="2"/></svg>
+      </div>
+      <h1 class="products-page__title">Our Products</h1>
+      <p class="products-page__subtitle">Keramik Produk Keramik Yang Telah Kami Produksi</p>
+    </div>
+  </section>
+
+  <main class="products-page__main">
+    <div class="container">
+      <div class="products-page__header" data-aos="fade-up">
+        <span class="section__label">Gallery</span>
+        <h2 class="section__title">Our Work</h2>
+        <p class="products-page__count" id="galleryCount">Showing 1–12 of 100 products</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+
+      <nav class="gallery-pagination" id="galleryPagination" aria-label="Product gallery pagination"></nav>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <span class="nav__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M12 26c0-4 3.5-8 8-8s8 4 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><ellipse cx="20" cy="14" rx="6" ry="3" stroke="currentColor" stroke-width="2"/></svg>
+          </span>
+          <span>KERAMIKANO</span>
+        </a>
+        <p class="footer__desc">Premium Indonesian ceramic manufacturer since 1980. Custom mugs, plates, bowls, and tableware for businesses nationwide.</p>
+      </div>
+      <div class="footer__links">
+        <h4 class="footer__heading">Quick Links</h4>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#factory">About Us</a></li>
+          <li><a href="index.html#about">Our Factory</a></li>
+          <li><a href="index.html#clients">Our Client</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+          <li><a href="products.html">Our Products</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4 class="footer__heading">Contact</h4>
+        <ul>
+          <li>+62 816-1985-192</li>
+          <li>info@kokeramiko.co.id</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2025 KERAMIKANO. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox__content">
+      <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <button type="button" class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="lightbox__image-wrap" id="lightboxImage"></div>
+      <button type="button" class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="products.js"></script>
+</body>
+</html>

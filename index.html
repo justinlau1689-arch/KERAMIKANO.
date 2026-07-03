@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KERAMIKANO — Premium custom ceramic manufacturer in Indonesia since 1980. Custom mugs, plates, bowls, and tableware for businesses.">
+  <title>KERAMIKANO | Premium Custom Ceramic Manufacturer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav__overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <div class="nav-wrapper" id="header">
+    <header class="header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="index.html#home" class="nav__logo">
+          <span class="nav__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 26c0-4 3.5-8 8-8s8 4 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <ellipse cx="20" cy="14" rx="6" ry="3" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </span>
+          <span class="nav__logo-text">KERAMIKANO</span>
+        </a>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#factory" class="nav__link">About Us</a></li>
+          <li><a href="#about" class="nav__link">Our Factory</a></li>
+          <li><a href="#clients" class="nav__link">Our Client</a></li>
+          <li><a href="#contact" class="nav__link">Contact Us</a></li>
+          <li class="nav__cta-item"><a href="products.html" class="nav__cta">Our Products</a></li>
+        </ul>
+
+        <button type="button" class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </nav>
+    </header>
+  </div>
+
+  <main>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+      </div>
+
+      <div class="hero__container container">
+        <div class="hero__content" data-aos="fade-right" data-aos-duration="1000">
+          <span class="hero__badge">Est. 1980 · Indonesia</span>
+          <h1 class="hero__title">Pabrik Mug Keramikano</h1>
+          <p class="hero__subtitle">
+            Produsen mug keramik, piring keramik, asbak keramik, mangkok keramik dan tableware keramik lainnya.
+          </p>
+          <div class="hero__cta">
+            <a href="#products" class="btn btn--primary btn--ripple">
+              Explore Products
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--outline btn--ripple">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="hero__decor" aria-hidden="true">
+            <div class="hero__decor-shape hero__decor-shape--1"></div>
+            <div class="hero__decor-shape hero__decor-shape--2"></div>
+            <div class="hero__decor-shape hero__decor-shape--3"></div>
+          </div>
+          <div class="hero__image-frame" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
+            <!-- Replace src with your hero image -->
+            <div class="placeholder placeholder--hero">
+              <svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Hero Image</span>
+              <small>Replace with your image</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#why-us" class="hero__scroll" aria-label="Scroll down">
+        <span class="hero__scroll-text">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US ==================== -->
+    <section class="section why-us" id="why-us">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__label">Why Choose Us</span>
+          <h2 class="section__title">Your Trusted Ceramic Manufacturing Partner</h2>
+          <p class="section__desc">Decades of craftsmanship, precision printing, and unwavering quality for corporate clients across Indonesia.</p>
+        </div>
+
+        <div class="why-us__grid">
+          <article class="why-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="why-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 4v4M24 40v4M4 24h4M40 24h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/><path d="M24 16v8l6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-card__title">40+ Years Experience</h3>
+            <p class="why-card__text">Four decades of ceramic manufacturing expertise, delivering consistent quality since 1980.</p>
+          </article>
+
+          <article class="why-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M8 36l8-24h16l8 24H8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M16 20c4-8 12-8 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Premium Ceramic Quality</h3>
+            <p class="why-card__text">Durable factory-grade ceramic materials built to withstand daily commercial use.</p>
+          </article>
+
+          <article class="why-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/><path d="M16 20h16M16 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="32" cy="28" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="why-card__title">Custom Logo Printing</h3>
+            <p class="why-card__text">High-resolution logo printing for events, promotions, and corporate branding needs.</p>
+          </article>
+
+          <article class="why-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l6 12 13 2-9.5 9 2.5 13L24 34l-12 6 2.5-13L5 18l13-2L24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="why-card__title">Trusted by Hundreds of Companies</h3>
+            <p class="why-card__text">Supplying leading Indonesian businesses, restaurants, hotels, and government organizations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PRODUCTS ==================== -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__label">Our Products</span>
+          <h2 class="section__title">Featured Ceramic Products</h2>
+          <p class="section__desc">Premium tableware crafted for businesses that demand excellence in every detail.</p>
+        </div>
+
+        <div class="products__grid">
+          <article class="product-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="product-card__image">
+              <img src="mug.jpeg" alt="Mug Keramik">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Mug Keramik</h3>
+              <p class="product-card__desc">Mug Keramik dengan beragam desain disesuaikan dengan kebutuhan anda.</p>
+              <a href="#contact" class="product-card__btn">Inquire Now</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="product-card__image">
+              <img src="image.jpeg" alt="Piring Keramik">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Piring Keramik</h3>
+              <p class="product-card__desc">Piring Keramik dengan beragam warna dan bentuk sesuai dengan kebutuhan anda.</p>
+              <a href="#contact" class="product-card__btn">Inquire Now</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-card__image">
+              <img src="asbak.jpeg" alt="Asbak Keramik">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Asbak Keramik</h3>
+              <p class="product-card__desc">Asbak Keramik dengan beragam warna dan bentuk.</p>
+              <a href="#contact" class="product-card__btn">Inquire Now</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-card__image">
+              <img src="mangkok.jpeg" alt="Mangkok Keramik">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Mangkok Keramik</h3>
+              <p class="product-card__desc">Complete coordinated sets for hotels, events, and corporate dining programs.</p>
+              <a href="#contact" class="product-card__btn">Inquire Now</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT US ==================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__label">Our Factory</span>
+          <h2 class="section__title">Crafting Excellence Since 1980</h2>
+          <p class="section__desc">
+            KERAMIKANO has grown from a small ceramic workshop into one of Indonesia's most trusted
+            manufacturing partners for premium custom tableware.
+          </p>
+        </div>
+
+        <!-- Timeline -->
+        <div class="timeline" data-aos="fade-up">
+          <div class="timeline__track">
+            <div class="timeline__line" id="timelineLine"></div>
+          </div>
+          <div class="timeline__items">
+            <div class="timeline__item" data-aos="fade-right" data-aos-delay="0">
+              <span class="timeline__year">1980</span>
+              <div class="timeline__dot"></div>
+              <p class="timeline__text">Company Founded</p>
+            </div>
+            <div class="timeline__item" data-aos="fade-up" data-aos-delay="150">
+              <span class="timeline__year">1995</span>
+              <div class="timeline__dot"></div>
+              <p class="timeline__text">Expanded Production</p>
+            </div>
+            <div class="timeline__item" data-aos="fade-up" data-aos-delay="300">
+              <span class="timeline__year">2010</span>
+              <div class="timeline__dot"></div>
+              <p class="timeline__text">Modern Printing Technology</p>
+            </div>
+            <div class="timeline__item" data-aos="fade-left" data-aos-delay="450">
+              <span class="timeline__year">2025</span>
+              <div class="timeline__dot"></div>
+              <p class="timeline__text">Trusted Nationwide</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vision & Mission -->
+        <div class="vm-grid">
+          <article class="vm-card" data-aos="flip-left" data-aos-delay="0">
+            <div class="vm-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 8C16 8 8 16 8 24s8 16 16 16 16-8 16-16S32 8 24 8z" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/><path d="M24 18v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="vm-card__title">Our Vision</h3>
+            <p class="vm-card__text">To be Indonesia's leading ceramic manufacturer, recognized globally for quality, innovation, and trusted partnerships with businesses of every scale.</p>
+          </article>
+
+          <article class="vm-card" data-aos="flip-left" data-aos-delay="150">
+            <div class="vm-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l4 10h10l-8 7 3 10-9-6-9 6 3-10-8-7h10L24 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="vm-card__title">Our Mission</h3>
+            <p class="vm-card__text">To deliver premium custom ceramic products through advanced manufacturing, rigorous quality control, and dedicated service that exceeds client expectations.</p>
+          </article>
+        </div>
+
+        <!-- About Statistics -->
+        <div class="stats-grid stats-grid--about">
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="0">
+            <span class="stat-card__number" data-count="40" data-suffix="+">0</span>
+            <span class="stat-card__label">Years Experience</span>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+            <span class="stat-card__number" data-count="1000" data-suffix="+">0</span>
+            <span class="stat-card__label">Projects Completed</span>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+            <span class="stat-card__number" data-count="500" data-suffix="+">0</span>
+            <span class="stat-card__label">Corporate Clients</span>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+            <span class="stat-card__number" data-count="100" data-suffix="%">0</span>
+            <span class="stat-card__label">Quality Control</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OUR FACTORY ==================== -->
+    <section class="section factory" id="factory">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__label">About us</span>
+          <h2 class="section__title">Lebih dari 40 Tahun Pengalaman</h2>
+          <p class="section__desc"></p>
+        </div>
+
+        <!-- Factory Blocks -->
+        <div class="factory-blocks">
+          <article class="factory-block" data-aos="fade-right">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><img src="pertama.jpeg"></span>
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">PRODUK UTAMA</span>
+              <h3 class="factory-block__title">Tableware Ceramics</h3>
+              <p class="factory-block__text">Pabrik Mug Keramiko memproduksi dan menyesuaikan produk keramik seperti mug, piring, mangkok, dan asbak untuk promosi, souvenir, dan acara. Dengan sertifikasi SNI, kami prioritaskan kualitas dan pengiriman tepat waktu dalam pelayanan selama puluhan tahun.</p>
+            </div>
+          </article>
+
+          <article class="factory-block factory-block--reverse" data-aos="fade-left">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><img src="kedua.jpg"></span>
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">PRODUK KERAMIK BERKUALITAS</span>
+              <h3 class="factory-block__title">High Quality</h3>
+              <p class="factory-block__text">Selain memenuhi Standar Nasional Indonesia (SNI) kami juga memiliki kepastian standar kualitas yang baik. Setiap pencetakan gambar, logo dan warna menggunakan metode pencetakan terbaik yang tidak mudah pudar.</p>
+            </div>
+          </article>
+
+          <article class="factory-block" data-aos="fade-right">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <img src="ketiga.jpeg">
+            
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">DIPERCAYA BANYAK CLIENT</span>
+              <h3 class="factory-block__title">Trusted Company</h3>
+              <p class="factory-block__text">Sudah banyak perusahaan maupun perorangan yang mempercayakan pencetakan mug keramik, asbak keramik, piring keramik, mangkok keramik dan lainnya kepada kami. </p>
+            </div>
+          </article>
+
+          <article class="factory-block factory-block--reverse" data-aos="fade-left">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Factory Image — Quality Control</span>
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">04</span>
+              <h3 class="factory-block__title">Quality Control</h3>
+              <p class="factory-block__text">Every product undergoes rigorous inspection to meet our strict quality standards before leaving the factory floor.</p>
+            </div>
+          </article>
+
+          <article class="factory-block" data-aos="fade-right">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Factory Image — Packaging</span>
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">05</span>
+              <h3 class="factory-block__title">Packaging</h3>
+              <p class="factory-block__text">Products are carefully packaged with protective materials to ensure they arrive in perfect condition at your doorstep.</p>
+            </div>
+          </article>
+
+          <article class="factory-block factory-block--reverse" data-aos="fade-left">
+            <div class="factory-block__image factory-block__image--float">
+              <div class="placeholder placeholder--factory">
+                <svg viewBox="0 0 64 64" fill="none"><rect x="8" y="16" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M8 44l12-12 8 8 16-16 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Factory Image — Shipping</span>
+              </div>
+            </div>
+            <div class="factory-block__content">
+              <span class="factory-block__step">06</span>
+              <h3 class="factory-block__title">Shipping</h3>
+              <p class="factory-block__text">Reliable nationwide delivery ensures your custom ceramic orders reach you on time, every time.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Production Process Timeline -->
+        <div class="process-timeline" data-aos="fade-up">
+          <h3 class="process-timeline__title">Production Process</h3>
+          <div class="process-timeline__wrapper">
+            <div class="process-timeline__line" id="processLine"></div>
+            <div class="process-timeline__steps">
+              <div class="process-step">
+                <div class="process-step__circle">1</div>
+                <span class="process-step__label">Design</span>
+              </div>
+              <div class="process-step">
+                <div class="process-step__circle">2</div>
+                <span class="process-step__label">Molding</span>
+              </div>
+              <div class="process-step">
+                <div class="process-step__circle">3</div>
+                <span class="process-step__label">Firing</span>
+              </div>
+              <div class="process-step">
+                <div class="process-step__circle">4</div>
+                <span class="process-step__label">Printing</span>
+              </div>
+              <div class="process-step">
+                <div class="process-step__circle">5</div>
+                <span class="process-step__label">QC</span>
+              </div>
+              <div class="process-step">
+                <div class="process-step__circle">6</div>
+                <span class="process-step__label">Delivery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OUR CLIENTS ==================== -->
+    <section class="section clients" id="clients">
+      <div class="container">
+        <div class="section__header section__header--center" data-aos="fade-down">
+          <span class="section__label">Our Clients</span>
+          <h2 class="section__title">Our Clients</h2>
+          <p class="section__desc">KLIEN YANG TELAH BEKERJASAMA DENGAN KAMI</p>
+        </div>
+
+        <div class="clients__grid" id="clientsGrid">
+          <!-- 24 client logo placeholders — replace img src when ready -->
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="nestle.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="rose-brand.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="gajah-tunggal.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="salam.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="bca.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="avrist.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="classmild.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="loreal.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="bank-niaga.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="aca-insurance.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="bri.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="kobe.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="btpn.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="waterboom.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="nutrisari.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="kalbe.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="bukopin.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="nikki.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="lottemart.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="bungasari.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="amidis.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="aia.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="samsung.jpg"></div></div>
+          <div class="client-card" data-aos="fade-up" data-aos-delay="0"><div class="client-card__logo"><img src="frisianflag.jpg"></div></div>
+        </div>
+
+        <!-- Client Statistics -->
+        <div class="stats-grid stats-grid--clients" data-aos="fade-up">
+          <div class="stat-card stat-card--light">
+            <span class="stat-card__number" data-count="500" data-suffix="+">0</span>
+            <span class="stat-card__label">Corporate Clients</span>
+          </div>
+          <div class="stat-card stat-card--light">
+            <span class="stat-card__number" data-count="40" data-suffix="+">0</span>
+            <span class="stat-card__label">Years Partnership</span>
+          </div>
+          <div class="stat-card stat-card--light">
+            <span class="stat-card__number" data-count="1000" data-suffix="+">0</span>
+            <span class="stat-card__label">Completed Orders</span>
+          </div>
+          <div class="stat-card stat-card--light">
+            <span class="stat-card__number" data-count="98" data-suffix="%">0</span>
+            <span class="stat-card__label">Customer Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT US ==================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header" data-aos="fade-up">
+          <span class="section__label">Contact Us</span>
+          <h2 class="section__title">Contact Us </h2>
+          <p class="section__desc">Hubungi kami untuk informasi lebih lanjut mengenai pemesanan produk mug keramik, mangkok keramik, asbak keramik, piring keramik dan berbagai produk keramik lainnya. Baik berbentuk polos maupun digital printing dengan kualitas terbaik.</p>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Contact Info Cards -->
+          <div class="contact__info" data-aos="fade-right">
+            <article class="info-card">
+              <div class="info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <h3 class="info-card__title">Phone</h3>
+                <p class="info-card__text">+62 816-1985-192</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h3 class="info-card__title">Email</h3>
+                <p class="info-card__text">Sgl_lestari@yahoo.com</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h3 class="info-card__title">Office Address</h3>
+                <p class="info-card__text">Jl. Peta Selatan, Kompleks Citi Square Business Park Blok A no 15. Kalideres, Jakarta Barat. 11840</p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <h3 class="info-card__title">Working Hours</h3>
+                <p class="info-card__text">Mon – Fri: 08:00 – 17:00<br></p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form" id="contactForm" data-aos="fade-left" novalidate>
+            <div class="form-group">
+              <input type="text" id="name" name="name" class="form-input" placeholder=" " required autocomplete="name">
+              <label for="name" class="form-label">Full Name</label>
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="company" name="company" class="form-input" placeholder=" " required autocomplete="organization">
+              <label for="company" class="form-label">Company</label>
+              <span class="form-error" id="companyError"></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder=" " required autocomplete="tel">
+                <label for="phone" class="form-label">Phone Number</label>
+                <span class="form-error" id="phoneError"></span>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-input" placeholder=" " required autocomplete="email">
+                <label for="email" class="form-label">Email</label>
+                <span class="form-error" id="emailError"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" class="form-input form-input--textarea" placeholder=" " rows="4" required></textarea>
+              <label for="message" class="form-label">Message</label>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--ripple btn--submit" id="submitBtn">
+              <span class="btn__text">Send Message</span>
+              <span class="btn__loader" aria-hidden="true"></span>
+            </button>
+
+            <div class="form-success" id="formSuccess" role="alert">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <p>Thank you! Your message has been sent successfully. We will contact you shortly.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">
+          <span class="nav__logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M12 26c0-4 3.5-8 8-8s8 4 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><ellipse cx="20" cy="14" rx="6" ry="3" stroke="currentColor" stroke-width="2"/></svg>
+          </span>
+          <span>KERAMIKANO</span>
+        </a>
+        <p class="footer__desc">Premium Indonesian ceramic manufacturer since 1980. Custom mugs, plates, bowls, and tableware for businesses nationwide.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2V9zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4 class="footer__heading">Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#factory">About Us</a></li>
+          <li><a href="#about">Our Factory</a></li>
+          <li><a href="#clients">Our Client</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="products.html">Our Products</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4 class="footer__heading">Contact</h4>
+        <ul>
+          <li>+62 816-1985-192</li>
+          <li>Sgl_lestari@yahoo.com</li>
+          <li>Jl. Industri Keramik No. 45<br>Tangerang, Banten 15134</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom container">
+      <p>&copy; 2025 KERAMIKANO. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back To Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
